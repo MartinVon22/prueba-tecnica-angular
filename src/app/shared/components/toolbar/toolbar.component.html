@@ -1,0 +1,9 @@
+<p>
+  <mat-toolbar>
+    <mat-toolbar-row>
+      <span>Prueba Técnica</span>
+      <span class="spacer"></span>
+      <span *ngIf="user">{{ user.getBasicProfile().getName() }}</span>
+    </mat-toolbar-row>
+  </mat-toolbar>
+</p>

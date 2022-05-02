@@ -1,0 +1,10 @@
+.container-loader {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    height: 100vh;
+    margin: auto;
+    background: #00000075;
+}
